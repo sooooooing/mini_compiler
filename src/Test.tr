@@ -1,0 +1,31 @@
+fn main() {
+    let a = 3;
+    let b = 2;
+    let mut c = 0;
+
+    if a > 5 || a != 0 {
+        println!("{}", a);
+    } else {
+        println!("{}", b);
+    }
+
+    if a < 3 {
+        if a < 2 {
+            println!("{}", a);
+        } else {
+            println!("{}", b);
+        }
+    }
+
+    if (a == 3 || b != 2) && b < 5 {
+        println!("{}", a);
+    }
+
+
+    loop { if c > 10 {break;}
+    println!("{}", c);
+    c = c + 1;}
+
+
+    return;
+}

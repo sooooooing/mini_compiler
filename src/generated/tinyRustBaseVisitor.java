@@ -1,4 +1,4 @@
-// Generated from C:/Users/user/컴파일러개론/week14/src/tinyRust.g4 by ANTLR 4.13.2
+// Generated from C:/Users/user/컴파일러개론/week13/src/tinyRust.g4 by ANTLR 4.13.2
 package generated;
 import org.antlr.v4.runtime.tree.AbstractParseTreeVisitor;
 

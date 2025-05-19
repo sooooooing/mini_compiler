@@ -18,7 +18,7 @@ params		:
 
 param		:  id ':' type_spec 		;
 
-type_spec	:  U32				    ;     // how about including array or string?
+type_spec	:  I32				    ;     // how about including array or string?
 
 ret_type_spec	:
 		| RARROW type_spec
@@ -98,7 +98,7 @@ literal : LITERAL;
 id      : ID;
 
 FUNC: 'fn';
-U32: 'u32';
+I32: 'i32';
 
 LOOP: 'loop';
 FOR: 'for';
